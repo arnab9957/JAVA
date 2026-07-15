@@ -75,7 +75,7 @@ public class Array {
         // 4. DECLARING AND INITIALIZING TOGETHER
         // ==========================================================
 
-        int[] marks = {85, 90, 75, 95, 88};
+        int marks [] = {85, 90, 75, 95, 88};
 
         // ==========================================================
         // 5. ACCESSING ELEMENTS
