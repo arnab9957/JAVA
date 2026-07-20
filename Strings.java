@@ -46,6 +46,7 @@ public class Strings {
 
         System.out.println(firstName);
         System.out.println(lastName);
+        System.out.println("HashCode For First Name: " + firstName.hashCode());
 
         // ==========================================================
         // 2. CONCATENATION
@@ -273,6 +274,19 @@ public class Strings {
             System.out.println(student);
 
         }
+
+        // ==========================================================
+        // 19. StringBuffers
+        // ==========================================================
+
+        System.out.println("StringBuffers: ");
+        StringBuffer sb = new StringBuffer("Arnab");
+        StringBuffer sb1 = new StringBuffer("Dey");
+        System.out.println("Capacity: " + sb.capacity());
+        System.out.println("Is Empty: " + sb.isEmpty());
+        System.out.println("Append Bool: " + sb.append(true));
+        System.out.println("Object: " + sb.append(sb1));
+        
 
         // ==========================================================
         // SUMMARY
